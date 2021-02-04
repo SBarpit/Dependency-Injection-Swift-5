@@ -16,9 +16,14 @@ enum CovidCase {
 }
 
 extension CovidCase: Endpoint {
+    private var baseUrl:String{
+        return "https://api.covid19api.com/dayone/country/"
+    }
+    
+    
   var path: String {
     switch self {
-    case .india: return "https://api.covid19api.com/dayone/country/india"
+    case .india: return baseUrl + "india"
     }
   }
 }

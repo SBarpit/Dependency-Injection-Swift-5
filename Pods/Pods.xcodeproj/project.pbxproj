@@ -3,41 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A02287654566C4E833D550868E61137D /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21E2BE6798485BF5B77BB20FEFD6FC2D /* Pods-Covid-19 Dependecy_Injection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 968F80FE7645790C87ABAA3A9F119F79 /* Pods-Covid-19 Dependecy_Injection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 593C23BE6F81900B7E5D14655827CBEC /* SwiftyJSON-dummy.m */; };
-		4552199177823E37A6184B18FD911704 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA26AE289CCA8077C7B718716B8FD6 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-dummy.m */; };
-		5FFA68463C86FE843D087A911AB14F47 /* Pods-Covid-19 Dependecy_Injection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E71F498E8BEE81954F68532F7429E6D /* Pods-Covid-19 Dependecy_Injection-dummy.m */; };
-		7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D7ABD2F10BB23F044CCCAEFA96E16 /* SwiftyJSON.swift */; };
-		815315D68FFA237C88AE333EFB42D635 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		924DAD4351849F11E96F76D3841782B4 /* Pods-Covid-19 Dependecy_InjectionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53B2313179B8CFB69DF06CA6CAA0F941 /* Pods-Covid-19 Dependecy_InjectionTests-dummy.m */; };
-		C297AC9431379391C114794AFD4F9778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C3C952FEFCA61370B345FC7B006B0A44 /* Pods-Covid-19 Dependecy_InjectionTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB0636D4E616553A3289AE6974E4D9BD /* Pods-Covid-19 Dependecy_InjectionTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18C5A6D2CCF43C6396CB331F719070B6 /* Pods-Covid-19 Dependecy_Injection-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2875BADF847FC1C184C8FF75DB95985 /* Pods-Covid-19 Dependecy_Injection-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74EF7122454CA7895B31EA27D19A89A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		850D5A7CA6A3A0FCFA82F784CDDF4769 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFF6CD79158700567570EC88CA1DB22 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		924DAD4351849F11E96F76D3841782B4 /* Pods-Covid-19 Dependecy_InjectionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D806EAEB026DADE270C8498BAD27CF9F /* Pods-Covid-19 Dependecy_InjectionTests-dummy.m */; };
+		ACDE68B9F3464BF5C6E6D7E31A4FE7C6 /* Pods-Covid-19 Dependecy_Injection-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F37A9349E1EEBB7882843E68BE5FA1CC /* Pods-Covid-19 Dependecy_Injection-dummy.m */; };
+		C3C952FEFCA61370B345FC7B006B0A44 /* Pods-Covid-19 Dependecy_InjectionTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04D2138038F4A422F849B13CDFD0E9AB /* Pods-Covid-19 Dependecy_InjectionTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4BDE05BF7A19D152659A55652EDAE24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C7E65F11A02E183233E6C28DC951DD09 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F54887D2EBB7327AB0153E3F327E7D1 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-dummy.m */; };
 		D97A368288A269CCA8C21E4AD06321B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EA044FE67738E5BCBD435D61A0437542 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE0DF9FA96C85786797D02BADEF992A /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F66628F16A1A57919C7749E8FBEF44F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		298C2AAE46D28F7B2C5BCD13B0116D1D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
-			remoteInfo = SwiftyJSON;
-		};
-		E1A6AE9A2749C4A8AE92830B240F1FDD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D118A6A04828FD3CDA8640CD2B6796D2;
-			remoteInfo = SwiftyJSON;
-		};
-		FFDE1C220B1DBFB8934601087D32A5CA /* PBXContainerItemProxy */ = {
+		0B94B9C8F4D9701A133E583DE8B5B321 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -47,54 +29,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BEA26AE289CCA8077C7B718716B8FD6 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-dummy.m"; sourceTree = "<group>"; };
-		101C24029129EB1DE176BE76BC5DC82B /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		18AB435A5CF58351530FC72AE0A0FB41 /* Pods-Covid-19 Dependecy_Injection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Covid-19 Dependecy_Injection.debug.xcconfig"; sourceTree = "<group>"; };
-		20F56C4910BCF1823350CC086EDA8955 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.release.xcconfig"; sourceTree = "<group>"; };
-		21C44AAB1967CC1C0A6624832E618C75 /* Pods-Covid-19 Dependecy_Injection-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Covid-19 Dependecy_Injection-Info.plist"; sourceTree = "<group>"; };
-		30B56F4C0DB66D9ECD93D634892A2326 /* Pods-Covid-19 Dependecy_InjectionTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Covid-19 Dependecy_InjectionTests-Info.plist"; sourceTree = "<group>"; };
-		318B6BBE40DD09C8E4D32EF13FE8FC4B /* Pods-Covid-19 Dependecy_Injection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Covid-19 Dependecy_Injection.modulemap"; sourceTree = "<group>"; };
-		3A8D0E6F676962B7EC6610D1E97180B7 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3BBAB8C14915907626B88B7BEEBA09B7 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-frameworks.sh"; sourceTree = "<group>"; };
-		4C3E018DDB089C99186C03DDF84D61A7 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-Info.plist"; sourceTree = "<group>"; };
-		53B2313179B8CFB69DF06CA6CAA0F941 /* Pods-Covid-19 Dependecy_InjectionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Covid-19 Dependecy_InjectionTests-dummy.m"; sourceTree = "<group>"; };
-		53C1A7E15161AE3A0E3A5090E19F84AE /* SwiftyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.release.xcconfig; sourceTree = "<group>"; };
-		593C23BE6F81900B7E5D14655827CBEC /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		59FEBF1F0F58825C5A130B60EB703AD9 /* Pods-Covid-19 Dependecy_Injection-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Covid-19 Dependecy_Injection-acknowledgements.markdown"; sourceTree = "<group>"; };
-		60A5446E3184AC9044FD67AD5C6955CF /* SwiftyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyJSON-Info.plist"; sourceTree = "<group>"; };
-		653FB229DCC549288BD6B5714B22D0C2 /* Pods-Covid-19 Dependecy_InjectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Covid-19 Dependecy_InjectionTests.release.xcconfig"; sourceTree = "<group>"; };
-		65FDDF7218C58B86C3BA595D223D8CA9 /* Pods-Covid-19 Dependecy_Injection-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Covid-19 Dependecy_Injection-acknowledgements.plist"; sourceTree = "<group>"; };
-		6A354C76B80E89FBF808D97B0B17C43C /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
-		6AA90F57BAD013DCBC4452199C26A87C /* Pods-Covid-19 Dependecy_Injection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Covid-19 Dependecy_Injection.release.xcconfig"; sourceTree = "<group>"; };
-		6B202BE8F4480B524E7CD82E1E3C2603 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.modulemap"; sourceTree = "<group>"; };
+		02C122C90E7A6DC1C6C8315515F24936 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		04D2138038F4A422F849B13CDFD0E9AB /* Pods-Covid-19 Dependecy_InjectionTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Covid-19 Dependecy_InjectionTests-umbrella.h"; sourceTree = "<group>"; };
+		05A0DB6731052ADF20EB59B00716D4E8 /* Pods-Covid-19 Dependecy_InjectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Covid-19 Dependecy_InjectionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		05D6BC8C23226924ED451187C622469C /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.modulemap"; sourceTree = "<group>"; };
+		14BAC0E2C9249231CB074681A2E1CBAD /* Pods-Covid-19 Dependecy_Injection.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Covid-19 Dependecy_Injection.modulemap"; sourceTree = "<group>"; };
+		14F368F6284C9773FF2A988F13BA7439 /* Pods-Covid-19 Dependecy_Injection-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Covid-19 Dependecy_Injection-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E97E1C228692B8BCAE71B47A398A03B /* Pods-Covid-19 Dependecy_Injection-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Covid-19 Dependecy_Injection-Info.plist"; sourceTree = "<group>"; };
+		362604935115BBB8F790FA29F5CED39A /* Pods-Covid-19 Dependecy_InjectionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Covid-19 Dependecy_InjectionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3DFF6CD79158700567570EC88CA1DB22 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-umbrella.h"; sourceTree = "<group>"; };
+		4A24A68B450E26167524E7C92B2FD578 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-Info.plist"; sourceTree = "<group>"; };
+		6F54887D2EBB7327AB0153E3F327E7D1 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E71F498E8BEE81954F68532F7429E6D /* Pods-Covid-19 Dependecy_Injection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Covid-19 Dependecy_Injection-dummy.m"; sourceTree = "<group>"; };
-		86396760687CD3B3E207146B9D4F13D7 /* Pods-Covid-19 Dependecy_InjectionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Covid-19 Dependecy_InjectionTests.debug.xcconfig"; sourceTree = "<group>"; };
-		874D7ABD2F10BB23F044CCCAEFA96E16 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON/SwiftyJSON.swift; sourceTree = "<group>"; };
-		8958B66558439389122A5BC27121505F /* Pods-Covid-19 Dependecy_InjectionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Covid-19 Dependecy_InjectionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7BD2B81E912428F385B366949D6D500C /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8021B501C3B7E5DF79DFF7BBE8DB5962 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		840FAB34C64C8162C2CB2FDE5D9F3711 /* Pods-Covid-19 Dependecy_Injection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Covid-19 Dependecy_Injection.release.xcconfig"; sourceTree = "<group>"; };
+		893E9AB91BAADA6B03D41BEC98BC4E85 /* Pods-Covid-19 Dependecy_InjectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Covid-19 Dependecy_InjectionTests.release.xcconfig"; sourceTree = "<group>"; };
 		8CC186B4056FB1870B0AEB6661B289E6 /* Pods_Covid_19_Dependecy_Injection_Covid_19_Dependecy_InjectionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Covid_19_Dependecy_Injection_Covid_19_Dependecy_InjectionUITests.framework; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FE0DF9FA96C85786797D02BADEF992A /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-umbrella.h"; sourceTree = "<group>"; };
 		90BC4E46D3A68BCF3A681E6CBC155419 /* Pods_Covid_19_Dependecy_InjectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Covid_19_Dependecy_InjectionTests.framework; path = "Pods-Covid-19 Dependecy_InjectionTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		968F80FE7645790C87ABAA3A9F119F79 /* Pods-Covid-19 Dependecy_Injection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Covid-19 Dependecy_Injection-umbrella.h"; sourceTree = "<group>"; };
+		987DDA5E80F3EC422B32FAB3D57C36E9 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		98CF721EBA051ECCB63DCDD12A12A482 /* Pods-Covid-19 Dependecy_InjectionTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Covid-19 Dependecy_InjectionTests-Info.plist"; sourceTree = "<group>"; };
+		9C9931E20026F6180B06C4AB3BA06FBF /* Pods-Covid-19 Dependecy_Injection-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Covid-19 Dependecy_Injection-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A02287654566C4E833D550868E61137D /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		B4D74695DF52269B53A59D1F03142143 /* Pods_Covid_19_Dependecy_Injection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Covid_19_Dependecy_Injection.framework; path = "Pods-Covid-19 Dependecy_Injection.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5F19CED913594D33A170F54023E3EF8 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C691EB5A38C116AC00F1B583BBA290D0 /* Pods-Covid-19 Dependecy_InjectionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Covid-19 Dependecy_InjectionTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DA3D318EA1B1EF861B9F30034592C53A /* Pods-Covid-19 Dependecy_InjectionTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Covid-19 Dependecy_InjectionTests.modulemap"; sourceTree = "<group>"; };
-		E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4A0FD389D173F56FBDB8A357093095A /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		F027A9579CB95297D0665E95F3C0F0A3 /* Pods-Covid-19 Dependecy_Injection-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Covid-19 Dependecy_Injection-frameworks.sh"; sourceTree = "<group>"; };
-		F8D55E3BEC2588689D54AFF1AE0AC1DF /* SwiftyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.debug.xcconfig; sourceTree = "<group>"; };
-		FB0636D4E616553A3289AE6974E4D9BD /* Pods-Covid-19 Dependecy_InjectionTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Covid-19 Dependecy_InjectionTests-umbrella.h"; sourceTree = "<group>"; };
+		BA1862B5D91689D1ED98663F7B8214D2 /* Pods-Covid-19 Dependecy_InjectionTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Covid-19 Dependecy_InjectionTests.modulemap"; sourceTree = "<group>"; };
+		C7B05C13A13BB913EE11C2D8428DE183 /* Pods-Covid-19 Dependecy_InjectionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Covid-19 Dependecy_InjectionTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2875BADF847FC1C184C8FF75DB95985 /* Pods-Covid-19 Dependecy_Injection-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Covid-19 Dependecy_Injection-umbrella.h"; sourceTree = "<group>"; };
+		D806EAEB026DADE270C8498BAD27CF9F /* Pods-Covid-19 Dependecy_InjectionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Covid-19 Dependecy_InjectionTests-dummy.m"; sourceTree = "<group>"; };
+		D9CB23B6C33C252CCD757F28E4A82966 /* Pods-Covid-19 Dependecy_Injection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Covid-19 Dependecy_Injection.debug.xcconfig"; sourceTree = "<group>"; };
+		F37A9349E1EEBB7882843E68BE5FA1CC /* Pods-Covid-19 Dependecy_Injection-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Covid-19 Dependecy_Injection-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3A8AF43EE24A97BA73C14DEA3D5BD996 /* Frameworks */ = {
+		394E5C786F8013FB921962ED5598B16B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F66628F16A1A57919C7749E8FBEF44F1 /* Foundation.framework in Frameworks */,
+				74EF7122454CA7895B31EA27D19A89A4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,59 +77,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9ECBB868DA9B44F1837BB03C45153ED8 /* Frameworks */ = {
+		B74726521B913B9B442770292E2ADD39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				815315D68FFA237C88AE333EFB42D635 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C297AC9431379391C114794AFD4F9778 /* Foundation.framework in Frameworks */,
+				C4BDE05BF7A19D152659A55652EDAE24 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C6A71D462ED46C2A7F74D962134DC74 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				519BE3CB838B11312A08D7AC7819F70F /* SwiftyJSON */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2D29C0B79FCBB35F13310A960DC2CD96 /* Pods-Covid-19 Dependecy_InjectionTests */ = {
-			isa = PBXGroup;
-			children = (
-				DA3D318EA1B1EF861B9F30034592C53A /* Pods-Covid-19 Dependecy_InjectionTests.modulemap */,
-				8958B66558439389122A5BC27121505F /* Pods-Covid-19 Dependecy_InjectionTests-acknowledgements.markdown */,
-				C691EB5A38C116AC00F1B583BBA290D0 /* Pods-Covid-19 Dependecy_InjectionTests-acknowledgements.plist */,
-				53B2313179B8CFB69DF06CA6CAA0F941 /* Pods-Covid-19 Dependecy_InjectionTests-dummy.m */,
-				30B56F4C0DB66D9ECD93D634892A2326 /* Pods-Covid-19 Dependecy_InjectionTests-Info.plist */,
-				FB0636D4E616553A3289AE6974E4D9BD /* Pods-Covid-19 Dependecy_InjectionTests-umbrella.h */,
-				86396760687CD3B3E207146B9D4F13D7 /* Pods-Covid-19 Dependecy_InjectionTests.debug.xcconfig */,
-				653FB229DCC549288BD6B5714B22D0C2 /* Pods-Covid-19 Dependecy_InjectionTests.release.xcconfig */,
-			);
-			name = "Pods-Covid-19 Dependecy_InjectionTests";
-			path = "Target Support Files/Pods-Covid-19 Dependecy_InjectionTests";
-			sourceTree = "<group>";
-		};
-		519BE3CB838B11312A08D7AC7819F70F /* SwiftyJSON */ = {
-			isa = PBXGroup;
-			children = (
-				874D7ABD2F10BB23F044CCCAEFA96E16 /* SwiftyJSON.swift */,
-				E7117206C2C7669CF7C06E59DE55529D /* Support Files */,
-			);
-			name = SwiftyJSON;
-			path = SwiftyJSON;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,32 +96,56 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		767BC0E9FA8E01A01A57B8863E915AEB /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6B202BE8F4480B524E7CD82E1E3C2603 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.modulemap */,
-				101C24029129EB1DE176BE76BC5DC82B /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-acknowledgements.markdown */,
-				3A8D0E6F676962B7EC6610D1E97180B7 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-acknowledgements.plist */,
-				0BEA26AE289CCA8077C7B718716B8FD6 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-dummy.m */,
-				3BBAB8C14915907626B88B7BEEBA09B7 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-frameworks.sh */,
-				4C3E018DDB089C99186C03DDF84D61A7 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-Info.plist */,
-				8FE0DF9FA96C85786797D02BADEF992A /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-umbrella.h */,
-				C5F19CED913594D33A170F54023E3EF8 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.debug.xcconfig */,
-				20F56C4910BCF1823350CC086EDA8955 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.release.xcconfig */,
-			);
-			name = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests";
-			path = "Target Support Files/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests";
-			sourceTree = "<group>";
-		};
-		8EDC91F01B2E724B00CF6B950DF4852D /* Products */ = {
+		5831D1F29A3C9E43E2899CC6ADD8FA6C /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				B4D74695DF52269B53A59D1F03142143 /* Pods_Covid_19_Dependecy_Injection.framework */,
 				8CC186B4056FB1870B0AEB6661B289E6 /* Pods_Covid_19_Dependecy_Injection_Covid_19_Dependecy_InjectionUITests.framework */,
 				90BC4E46D3A68BCF3A681E6CBC155419 /* Pods_Covid_19_Dependecy_InjectionTests.framework */,
-				E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		81B6369133BEDB82DC48A199AF8BEC8D /* Pods-Covid-19 Dependecy_Injection */ = {
+			isa = PBXGroup;
+			children = (
+				14BAC0E2C9249231CB074681A2E1CBAD /* Pods-Covid-19 Dependecy_Injection.modulemap */,
+				9C9931E20026F6180B06C4AB3BA06FBF /* Pods-Covid-19 Dependecy_Injection-acknowledgements.markdown */,
+				14F368F6284C9773FF2A988F13BA7439 /* Pods-Covid-19 Dependecy_Injection-acknowledgements.plist */,
+				F37A9349E1EEBB7882843E68BE5FA1CC /* Pods-Covid-19 Dependecy_Injection-dummy.m */,
+				1E97E1C228692B8BCAE71B47A398A03B /* Pods-Covid-19 Dependecy_Injection-Info.plist */,
+				D2875BADF847FC1C184C8FF75DB95985 /* Pods-Covid-19 Dependecy_Injection-umbrella.h */,
+				D9CB23B6C33C252CCD757F28E4A82966 /* Pods-Covid-19 Dependecy_Injection.debug.xcconfig */,
+				840FAB34C64C8162C2CB2FDE5D9F3711 /* Pods-Covid-19 Dependecy_Injection.release.xcconfig */,
+			);
+			name = "Pods-Covid-19 Dependecy_Injection";
+			path = "Target Support Files/Pods-Covid-19 Dependecy_Injection";
+			sourceTree = "<group>";
+		};
+		9AD2C0BFAB5A68D91204E97915ECEB4E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81B6369133BEDB82DC48A199AF8BEC8D /* Pods-Covid-19 Dependecy_Injection */,
+				D9DFE4EFF113BCCC0C486846249CE971 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests */,
+				A959D143D53DD808DAAE2B0E8D4CB10D /* Pods-Covid-19 Dependecy_InjectionTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A959D143D53DD808DAAE2B0E8D4CB10D /* Pods-Covid-19 Dependecy_InjectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA1862B5D91689D1ED98663F7B8214D2 /* Pods-Covid-19 Dependecy_InjectionTests.modulemap */,
+				362604935115BBB8F790FA29F5CED39A /* Pods-Covid-19 Dependecy_InjectionTests-acknowledgements.markdown */,
+				C7B05C13A13BB913EE11C2D8428DE183 /* Pods-Covid-19 Dependecy_InjectionTests-acknowledgements.plist */,
+				D806EAEB026DADE270C8498BAD27CF9F /* Pods-Covid-19 Dependecy_InjectionTests-dummy.m */,
+				98CF721EBA051ECCB63DCDD12A12A482 /* Pods-Covid-19 Dependecy_InjectionTests-Info.plist */,
+				04D2138038F4A422F849B13CDFD0E9AB /* Pods-Covid-19 Dependecy_InjectionTests-umbrella.h */,
+				05A0DB6731052ADF20EB59B00716D4E8 /* Pods-Covid-19 Dependecy_InjectionTests.debug.xcconfig */,
+				893E9AB91BAADA6B03D41BEC98BC4E85 /* Pods-Covid-19 Dependecy_InjectionTests.release.xcconfig */,
+			);
+			name = "Pods-Covid-19 Dependecy_InjectionTests";
+			path = "Target Support Files/Pods-Covid-19 Dependecy_InjectionTests";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -200,9 +153,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				2C6A71D462ED46C2A7F74D962134DC74 /* Pods */,
-				8EDC91F01B2E724B00CF6B950DF4852D /* Products */,
-				DA1865B78BB20594CA2BA0D347C7D523 /* Targets Support Files */,
+				5831D1F29A3C9E43E2899CC6ADD8FA6C /* Products */,
+				9AD2C0BFAB5A68D91204E97915ECEB4E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,64 +166,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DA1865B78BB20594CA2BA0D347C7D523 /* Targets Support Files */ = {
+		D9DFE4EFF113BCCC0C486846249CE971 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E19137515EB1850499CC8092BFC7D160 /* Pods-Covid-19 Dependecy_Injection */,
-				767BC0E9FA8E01A01A57B8863E915AEB /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests */,
-				2D29C0B79FCBB35F13310A960DC2CD96 /* Pods-Covid-19 Dependecy_InjectionTests */,
+				05D6BC8C23226924ED451187C622469C /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.modulemap */,
+				8021B501C3B7E5DF79DFF7BBE8DB5962 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-acknowledgements.markdown */,
+				7BD2B81E912428F385B366949D6D500C /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-acknowledgements.plist */,
+				6F54887D2EBB7327AB0153E3F327E7D1 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-dummy.m */,
+				4A24A68B450E26167524E7C92B2FD578 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-Info.plist */,
+				3DFF6CD79158700567570EC88CA1DB22 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-umbrella.h */,
+				987DDA5E80F3EC422B32FAB3D57C36E9 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.debug.xcconfig */,
+				02C122C90E7A6DC1C6C8315515F24936 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E19137515EB1850499CC8092BFC7D160 /* Pods-Covid-19 Dependecy_Injection */ = {
-			isa = PBXGroup;
-			children = (
-				318B6BBE40DD09C8E4D32EF13FE8FC4B /* Pods-Covid-19 Dependecy_Injection.modulemap */,
-				59FEBF1F0F58825C5A130B60EB703AD9 /* Pods-Covid-19 Dependecy_Injection-acknowledgements.markdown */,
-				65FDDF7218C58B86C3BA595D223D8CA9 /* Pods-Covid-19 Dependecy_Injection-acknowledgements.plist */,
-				7E71F498E8BEE81954F68532F7429E6D /* Pods-Covid-19 Dependecy_Injection-dummy.m */,
-				F027A9579CB95297D0665E95F3C0F0A3 /* Pods-Covid-19 Dependecy_Injection-frameworks.sh */,
-				21C44AAB1967CC1C0A6624832E618C75 /* Pods-Covid-19 Dependecy_Injection-Info.plist */,
-				968F80FE7645790C87ABAA3A9F119F79 /* Pods-Covid-19 Dependecy_Injection-umbrella.h */,
-				18AB435A5CF58351530FC72AE0A0FB41 /* Pods-Covid-19 Dependecy_Injection.debug.xcconfig */,
-				6AA90F57BAD013DCBC4452199C26A87C /* Pods-Covid-19 Dependecy_Injection.release.xcconfig */,
-			);
-			name = "Pods-Covid-19 Dependecy_Injection";
-			path = "Target Support Files/Pods-Covid-19 Dependecy_Injection";
-			sourceTree = "<group>";
-		};
-		E7117206C2C7669CF7C06E59DE55529D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E4A0FD389D173F56FBDB8A357093095A /* SwiftyJSON.modulemap */,
-				593C23BE6F81900B7E5D14655827CBEC /* SwiftyJSON-dummy.m */,
-				60A5446E3184AC9044FD67AD5C6955CF /* SwiftyJSON-Info.plist */,
-				6A354C76B80E89FBF808D97B0B17C43C /* SwiftyJSON-prefix.pch */,
-				A02287654566C4E833D550868E61137D /* SwiftyJSON-umbrella.h */,
-				F8D55E3BEC2588689D54AFF1AE0AC1DF /* SwiftyJSON.debug.xcconfig */,
-				53C1A7E15161AE3A0E3A5090E19F84AE /* SwiftyJSON.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyJSON";
+			name = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests";
+			path = "Target Support Files/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */ = {
+		3ADB10F9E32741C4F349B241E31C6FAE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1942F7D3B7722A5637C3FC0BE44B1E6C /* SwiftyJSON-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4C30415618AFC12F41486859ACF1E019 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				21E2BE6798485BF5B77BB20FEFD6FC2D /* Pods-Covid-19 Dependecy_Injection-umbrella.h in Headers */,
+				850D5A7CA6A3A0FCFA82F784CDDF4769 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +201,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BD9380DB223E59358858334187F589E /* Headers */ = {
+		B757EB31EECC7BF7AEB849999F4F4BF5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA044FE67738E5BCBD435D61A0437542 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-umbrella.h in Headers */,
+				18C5A6D2CCF43C6396CB331F719070B6 /* Pods-Covid-19 Dependecy_Injection-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,39 +214,20 @@
 /* Begin PBXNativeTarget section */
 		8A571D3889FC58DAEDCF4D59D36466C4 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8822C03063E608465200C18CCB09A992 /* Build configuration list for PBXNativeTarget "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests" */;
+			buildConfigurationList = 34756C918E583396574A1248E32AFEA0 /* Build configuration list for PBXNativeTarget "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests" */;
 			buildPhases = (
-				8BD9380DB223E59358858334187F589E /* Headers */,
-				2C7D49EEF61868ABA9C9AEFA248938DC /* Sources */,
-				3A8AF43EE24A97BA73C14DEA3D5BD996 /* Frameworks */,
-				D2746525057BA25D3F8F793820B93002 /* Resources */,
+				3ADB10F9E32741C4F349B241E31C6FAE /* Headers */,
+				55D44E26A108BFA46C27AED7F44DC964 /* Sources */,
+				B74726521B913B9B442770292E2ADD39 /* Frameworks */,
+				78AE07C9F0F441EE58648B19B31AB498 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5C173859E62A3712C20405B1DFA0C3BC /* PBXTargetDependency */,
 			);
 			name = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests";
 			productName = "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests";
 			productReference = 8CC186B4056FB1870B0AEB6661B289E6 /* Pods_Covid_19_Dependecy_Injection_Covid_19_Dependecy_InjectionUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
-			buildPhases = (
-				3D7DD627DB5C5AD636646E57B685AFB2 /* Headers */,
-				1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */,
-				AD9C5A8DAF4334B670E91B2EC08DBE2C /* Frameworks */,
-				D098F7F0080A87A1F472C81FC2F85528 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftyJSON;
-			productName = SwiftyJSON;
-			productReference = E23C076BA70925415F490FEDB215DA92 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D1D2FD63EAFBA4D61848661F312D2C0A /* Pods-Covid-19 Dependecy_InjectionTests */ = {
@@ -343,7 +242,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9AED6BFAD531C8EB3ED3106EDA92ACDA /* PBXTargetDependency */,
+				AB239CE51C22FD55D4889BA83F91DFA0 /* PBXTargetDependency */,
 			);
 			name = "Pods-Covid-19 Dependecy_InjectionTests";
 			productName = "Pods-Covid-19 Dependecy_InjectionTests";
@@ -352,17 +251,16 @@
 		};
 		FF3650C19A9E75A3B042E05D67357423 /* Pods-Covid-19 Dependecy_Injection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDE1A8440E253F70FC79C10CABBA2902 /* Build configuration list for PBXNativeTarget "Pods-Covid-19 Dependecy_Injection" */;
+			buildConfigurationList = FB51EC95ED7E0DBDC04EE6F652500D1D /* Build configuration list for PBXNativeTarget "Pods-Covid-19 Dependecy_Injection" */;
 			buildPhases = (
-				4C30415618AFC12F41486859ACF1E019 /* Headers */,
-				B7C4276F571F32C0DC644FDF6AFDE067 /* Sources */,
-				9ECBB868DA9B44F1837BB03C45153ED8 /* Frameworks */,
-				A8ACC722301B826B28F0C8A564A717ED /* Resources */,
+				B757EB31EECC7BF7AEB849999F4F4BF5 /* Headers */,
+				D69DF4884CCF5675D177BC1DBCD0DB1E /* Sources */,
+				394E5C786F8013FB921962ED5598B16B /* Frameworks */,
+				396D5774910F004386FFCFB6E3E7A3AE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E5D1F5FDE1907C8207F9D78FE17CC2D1 /* PBXTargetDependency */,
 			);
 			name = "Pods-Covid-19 Dependecy_Injection";
 			productName = "Pods-Covid-19 Dependecy_Injection";
@@ -379,7 +277,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -387,41 +285,33 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8EDC91F01B2E724B00CF6B950DF4852D /* Products */;
+			productRefGroup = 5831D1F29A3C9E43E2899CC6ADD8FA6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FF3650C19A9E75A3B042E05D67357423 /* Pods-Covid-19 Dependecy_Injection */,
 				8A571D3889FC58DAEDCF4D59D36466C4 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests */,
 				D1D2FD63EAFBA4D61848661F312D2C0A /* Pods-Covid-19 Dependecy_InjectionTests */,
-				D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		396D5774910F004386FFCFB6E3E7A3AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AE07C9F0F441EE58648B19B31AB498 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7CDC89C3FD5C45C4B58B2892A7F5EF85 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8ACC722301B826B28F0C8A564A717ED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D098F7F0080A87A1F472C81FC2F85528 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2746525057BA25D3F8F793820B93002 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,28 +321,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1700C451C98D9DCECBEDFC5E351C5A9E /* Sources */ = {
+		55D44E26A108BFA46C27AED7F44DC964 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BF6FBC0A64BF107C5D64C61F1397770 /* SwiftyJSON-dummy.m in Sources */,
-				7B4CE5C84161E2BFE477F42DFD634382 /* SwiftyJSON.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2C7D49EEF61868ABA9C9AEFA248938DC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4552199177823E37A6184B18FD911704 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B7C4276F571F32C0DC644FDF6AFDE067 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5FFA68463C86FE843D087A911AB14F47 /* Pods-Covid-19 Dependecy_Injection-dummy.m in Sources */,
+				C7E65F11A02E183233E6C28DC951DD09 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,33 +337,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D69DF4884CCF5675D177BC1DBCD0DB1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDE68B9F3464BF5C6E6D7E31A4FE7C6 /* Pods-Covid-19 Dependecy_Injection-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5C173859E62A3712C20405B1DFA0C3BC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
-			targetProxy = 298C2AAE46D28F7B2C5BCD13B0116D1D /* PBXContainerItemProxy */;
-		};
-		9AED6BFAD531C8EB3ED3106EDA92ACDA /* PBXTargetDependency */ = {
+		AB239CE51C22FD55D4889BA83F91DFA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Covid-19 Dependecy_Injection";
 			target = FF3650C19A9E75A3B042E05D67357423 /* Pods-Covid-19 Dependecy_Injection */;
-			targetProxy = FFDE1C220B1DBFB8934601087D32A5CA /* PBXContainerItemProxy */;
-		};
-		E5D1F5FDE1907C8207F9D78FE17CC2D1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyJSON;
-			target = D118A6A04828FD3CDA8640CD2B6796D2 /* SwiftyJSON */;
-			targetProxy = E1A6AE9A2749C4A8AE92830B240F1FDD /* PBXContainerItemProxy */;
+			targetProxy = 0B94B9C8F4D9701A133E583DE8B5B321 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		08E860AFAFCECA40E9C2D14202359328 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 653FB229DCC549288BD6B5714B22D0C2 /* Pods-Covid-19 Dependecy_InjectionTests.release.xcconfig */;
+			baseConfigurationReference = 893E9AB91BAADA6B03D41BEC98BC4E85 /* Pods-Covid-19 Dependecy_InjectionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -528,7 +397,7 @@
 		};
 		4651E4107291462A5285C2346CB6053B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86396760687CD3B3E207146B9D4F13D7 /* Pods-Covid-19 Dependecy_InjectionTests.debug.xcconfig */;
+			baseConfigurationReference = 05A0DB6731052ADF20EB59B00716D4E8 /* Pods-Covid-19 Dependecy_InjectionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -562,41 +431,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		501C4DDF76F727E13770D67E891EDEF3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53C1A7E15161AE3A0E3A5090E19F84AE /* SwiftyJSON.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		95607A856795A398FFB76177B56DE3A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -664,10 +498,12 @@
 			};
 			name = Debug;
 		};
-		A6D1856327C32BF7B667BB2BEEAC10FA /* Debug */ = {
+		9B35E4297F9170E1EE64CC978FBF17F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8D55E3BEC2588689D54AFF1AE0AC1DF /* SwiftyJSON.debug.xcconfig */;
+			baseConfigurationReference = 987DDA5E80F3EC422B32FAB3D57C36E9 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -676,31 +512,32 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyJSON;
-				PRODUCT_NAME = SwiftyJSON;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		B8800CE8B00CEEBB27DBB6DCB8D2C3D5 /* Debug */ = {
+		9F59D24F0CA7E05A50D2A86BF22067B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18AB435A5CF58351530FC72AE0A0FB41 /* Pods-Covid-19 Dependecy_Injection.debug.xcconfig */;
+			baseConfigurationReference = D9CB23B6C33C252CCD757F28E4A82966 /* Pods-Covid-19 Dependecy_Injection.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -735,9 +572,9 @@
 			};
 			name = Debug;
 		};
-		CDB53D0B157BF21D75956D5B9867FD49 /* Release */ = {
+		AA6AF1B9FEF98F0757693520B5C3D220 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20F56C4910BCF1823350CC086EDA8955 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.release.xcconfig */;
+			baseConfigurationReference = 02C122C90E7A6DC1C6C8315515F24936 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -835,9 +672,9 @@
 			};
 			name = Release;
 		};
-		E0BD1365E093319CDF24D3CE46500AB1 /* Release */ = {
+		DF08F91387502D0BB9C12F3D59264C95 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AA90F57BAD013DCBC4452199C26A87C /* Pods-Covid-19 Dependecy_Injection.release.xcconfig */;
+			baseConfigurationReference = 840FAB34C64C8162C2CB2FDE5D9F3711 /* Pods-Covid-19 Dependecy_Injection.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -873,46 +710,18 @@
 			};
 			name = Release;
 		};
-		E412F636A6AC2A0AE4A57846234C5826 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5F19CED913594D33A170F54023E3EF8 /* Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		34756C918E583396574A1248E32AFEA0 /* Build configuration list for PBXNativeTarget "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B35E4297F9170E1EE64CC978FBF17F3 /* Debug */,
+				AA6AF1B9FEF98F0757693520B5C3D220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -922,38 +731,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62468BF9C7EDA172E951A24083C3ECA7 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A6D1856327C32BF7B667BB2BEEAC10FA /* Debug */,
-				501C4DDF76F727E13770D67E891EDEF3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8822C03063E608465200C18CCB09A992 /* Build configuration list for PBXNativeTarget "Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E412F636A6AC2A0AE4A57846234C5826 /* Debug */,
-				CDB53D0B157BF21D75956D5B9867FD49 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CDE1A8440E253F70FC79C10CABBA2902 /* Build configuration list for PBXNativeTarget "Pods-Covid-19 Dependecy_Injection" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B8800CE8B00CEEBB27DBB6DCB8D2C3D5 /* Debug */,
-				E0BD1365E093319CDF24D3CE46500AB1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D181AA48BA6430C7865D0E5E5B59A287 /* Build configuration list for PBXNativeTarget "Pods-Covid-19 Dependecy_InjectionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4651E4107291462A5285C2346CB6053B /* Debug */,
 				08E860AFAFCECA40E9C2D14202359328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB51EC95ED7E0DBDC04EE6F652500D1D /* Build configuration list for PBXNativeTarget "Pods-Covid-19 Dependecy_Injection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F59D24F0CA7E05A50D2A86BF22067B9 /* Debug */,
+				DF08F91387502D0BB9C12F3D59264C95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

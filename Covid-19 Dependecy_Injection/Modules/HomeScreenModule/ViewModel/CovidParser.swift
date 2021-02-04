@@ -23,12 +23,12 @@ class CovidParser: CovidFetcher {
     }
     
     func fetch<T:Decodable>(_ endpoint:Endpoint,type:T.Type,response: @escaping ([T]?) -> Void) {
-        networking.request(from: endpoint) { [weak self] (data, error) in
+        networking.request(from: endpoint) { (data, error) in
             if let e = error{
                 print("Error ----- \(e.localizedDescription)")
                 return
             }else{
-                let decoded = self?.decodeParser(type: type.self, from: data)
+                let decoded = Parser.shared.decodeParser(type: type.self, from: data)
                 if let decode = decoded{
                     print(decode)
                     response(decode)
@@ -39,11 +39,5 @@ class CovidParser: CovidFetcher {
         }
     }
     
-    func decodeParser<T:Decodable>(type:T.Type,from:Data?) -> [T]?{
-        let decoder = JSONDecoder()
-        guard let d = from, let response = try? decoder.decode([T].self, from: d) else {
-            return nil
-        }
-        return response
-    }
+    
 }

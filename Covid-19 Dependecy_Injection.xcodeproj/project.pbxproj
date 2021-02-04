@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		086C81D5AC14807F0ED3F696 /* Pods_Covid_19_Dependecy_InjectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C78106980FF17B28C7D669 /* Pods_Covid_19_Dependecy_InjectionTests.framework */; };
 		52DD26582335CD6852158CD1 /* Pods_Covid_19_Dependecy_Injection_Covid_19_Dependecy_InjectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9443B440FDE405F8311C8A88 /* Pods_Covid_19_Dependecy_Injection_Covid_19_Dependecy_InjectionUITests.framework */; };
 		F52542BD254F28E800091EC3 /* CovidParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52542BC254F28E800091EC3 /* CovidParser.swift */; };
+		F56BB93A25CB3955008A25B3 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56BB93925CB3955008A25B3 /* Parser.swift */; };
 		F5F231B6254DFEF4004B5555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F231B5254DFEF4004B5555 /* AppDelegate.swift */; };
 		F5F231BA254DFEF4004B5555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F231B9254DFEF4004B5555 /* ViewController.swift */; };
 		F5F231BD254DFEF4004B5555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5F231BB254DFEF4004B5555 /* Main.storyboard */; };
@@ -51,6 +52,7 @@
 		9443B440FDE405F8311C8A88 /* Pods_Covid_19_Dependecy_Injection_Covid_19_Dependecy_InjectionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covid_19_Dependecy_Injection_Covid_19_Dependecy_InjectionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6153CAF73EA05F04ED409D8 /* Pods-Covid-19 Dependecy_InjectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid-19 Dependecy_InjectionTests.release.xcconfig"; path = "Target Support Files/Pods-Covid-19 Dependecy_InjectionTests/Pods-Covid-19 Dependecy_InjectionTests.release.xcconfig"; sourceTree = "<group>"; };
 		F52542BC254F28E800091EC3 /* CovidParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidParser.swift; sourceTree = "<group>"; };
+		F56BB93925CB3955008A25B3 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		F5F231B2254DFEF4004B5555 /* Covid-19 Dependecy_Injection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid-19 Dependecy_Injection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F231B5254DFEF4004B5555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5F231B9254DFEF4004B5555 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,7 +109,6 @@
 				182F34D63EB0F7F78E1022DA /* Pods-Covid-19 Dependecy_InjectionTests.debug.xcconfig */,
 				E6153CAF73EA05F04ED409D8 /* Pods-Covid-19 Dependecy_InjectionTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -119,6 +120,59 @@
 				67C78106980FF17B28C7D669 /* Pods_Covid_19_Dependecy_InjectionTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F56BB93E25CB45B0008A25B3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F56BB93F25CB45BA008A25B3 /* HomeScreenModule */,
+				F56BB94D25CB4652008A25B3 /* SignupModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F56BB93F25CB45BA008A25B3 /* HomeScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				F5F231EA254E0A11004B5555 /* Model */,
+				F56BB94025CB45CB008A25B3 /* View */,
+				F56BB94125CB45D6008A25B3 /* ViewModel */,
+			);
+			path = HomeScreenModule;
+			sourceTree = "<group>";
+		};
+		F56BB94025CB45CB008A25B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5F231B9254DFEF4004B5555 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F56BB94125CB45D6008A25B3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F52542BC254F28E800091EC3 /* CovidParser.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F56BB94225CB45ED008A25B3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F5F231BB254DFEF4004B5555 /* Main.storyboard */,
+				F5F231BE254DFEFB004B5555 /* Assets.xcassets */,
+				F5F231C0254DFEFB004B5555 /* LaunchScreen.storyboard */,
+				F5F231B5254DFEF4004B5555 /* AppDelegate.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F56BB94D25CB4652008A25B3 /* SignupModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignupModule;
 			sourceTree = "<group>";
 		};
 		F5F231A9254DFEF4004B5555 = {
@@ -146,13 +200,9 @@
 		F5F231B4254DFEF4004B5555 /* Covid-19 Dependecy_Injection */ = {
 			isa = PBXGroup;
 			children = (
-				F5F231EA254E0A11004B5555 /* Model */,
+				F56BB94225CB45ED008A25B3 /* Utilities */,
+				F56BB93E25CB45B0008A25B3 /* Modules */,
 				F5F231E5254DFF3A004B5555 /* Dependencies */,
-				F5F231B5254DFEF4004B5555 /* AppDelegate.swift */,
-				F5F231B9254DFEF4004B5555 /* ViewController.swift */,
-				F5F231BB254DFEF4004B5555 /* Main.storyboard */,
-				F5F231BE254DFEFB004B5555 /* Assets.xcassets */,
-				F5F231C0254DFEFB004B5555 /* LaunchScreen.storyboard */,
 				F5F231C3254DFEFB004B5555 /* Info.plist */,
 			);
 			path = "Covid-19 Dependecy_Injection";
@@ -181,7 +231,7 @@
 			children = (
 				F5F231E6254DFF53004B5555 /* NetworkLayer.swift */,
 				F5F231E8254DFFDD004B5555 /* Endpoint.swift */,
-				F52542BC254F28E800091EC3 /* CovidParser.swift */,
+				F56BB93925CB3955008A25B3 /* Parser.swift */,
 			);
 			path = Dependencies;
 			sourceTree = "<group>";
@@ -205,7 +255,6 @@
 				F5F231AE254DFEF4004B5555 /* Sources */,
 				F5F231AF254DFEF4004B5555 /* Frameworks */,
 				F5F231B0254DFEF4004B5555 /* Resources */,
-				CB1D1A50FCA453E9855AF03C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,7 +292,6 @@
 				F5F231CF254DFEFB004B5555 /* Sources */,
 				F5F231D0254DFEFB004B5555 /* Frameworks */,
 				F5F231D1254DFEFB004B5555 /* Resources */,
-				3875D4F9CD9B3241CD4C0BB2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -348,23 +396,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3875D4F9CD9B3241CD4C0BB2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests/Pods-Covid-19 Dependecy_Injection-Covid-19 Dependecy_InjectionUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9F8DAB9B24051CE2CDDFFA49 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,23 +416,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CB1D1A50FCA453E9855AF03C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Covid-19 Dependecy_Injection/Pods-Covid-19 Dependecy_Injection-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Covid-19 Dependecy_Injection/Pods-Covid-19 Dependecy_Injection-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Covid-19 Dependecy_Injection/Pods-Covid-19 Dependecy_Injection-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D0AFCFF4789B8F88A1696DDF /* [CP] Check Pods Manifest.lock */ = {
@@ -439,6 +453,7 @@
 				F5F231BA254DFEF4004B5555 /* ViewController.swift in Sources */,
 				F5F231E9254DFFDD004B5555 /* Endpoint.swift in Sources */,
 				F5F231B6254DFEF4004B5555 /* AppDelegate.swift in Sources */,
+				F56BB93A25CB3955008A25B3 /* Parser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
